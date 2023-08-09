@@ -1,2 +1,3 @@
-# MAD-individual
-testing 
+# MAD-individual-assignment
+
+source code of MAD assignment (Individual)

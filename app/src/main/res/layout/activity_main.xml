@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Split Bill App"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="25dp"/>
+
+
+    <Button
+        android:id="@+id/equalSplitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equal Split" />
+
+    <Button
+        android:id="@+id/customSplitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Split" />
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History" />
+</LinearLayout>
